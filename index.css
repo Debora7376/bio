@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #040405;
+  color: white;
+  font-family: "Saira", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100vw - (100vw - 100%));
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 100%;
+  max-width: 30rem;
+  height: 100%;
+}
+
+.profile {
+  display: grid;
+  gap: 0.7rem;
+  justify-items: center;
+  text-align: center;
+}
+
+.profile img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: solid 4px #11a9eb;
+}
+
+.profile h1 {
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.profile span {
+  font-size: 20px;
+  color: #11a9eb;
+}
+
+.menu-pessoal {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: space-between;
+  gap: 1rem;
+}
+
+.menu-pessoal a {
+  text-decoration: none;
+  color: white;
+  font-family: "Saira", sans-serif;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border-radius: 4px;
+  height: 60px;
+}
+
+.btn img {
+  width: 2rem;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem 1rem;
+}
+
+.ebook {
+  background-color: rgba(236, 26, 37, 0.81);
+}
+.blog {
+  background-color: #702585;
+}
+
+.portifolio {
+  background-color: #3f218f;
+}
+
+.instagram {
+  background: linear-gradient(0deg, rgba(255, 0, 151, 0.71), rgba(255, 0, 151, 0.71)),
+    linear-gradient(180deg, rgba(255, 95, 95, 0) 24.48%, rgba(255, 95, 95, 0.59) 88.54%
+    );
+}
+
+.telegram {
+  background-color: #027ec4;
+}
+
+.linkedin {
+  background-color: #2cbaf3;
+}
+
+.discord {
+  background-color: #5865f2;
+}
+
+.github {
+  background-color: #171515;
+}
+
+.behance {
+  background-color: #053eff;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 0.3rem;
+}
+footer img {
+  width: 20px;
+}
