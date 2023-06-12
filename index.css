@@ -9,6 +9,10 @@ body {
   color: white;
   font-family: "Saira", sans-serif;
 }
+.light-mode{
+  background-color: #e9e4e457;
+  color: #000;
+}
 
 .container {
   display: flex;

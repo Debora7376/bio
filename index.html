@@ -19,12 +19,15 @@
     
 </head>
 <body>
+    
     <div class="container">
         <div class="main">
+            <a onclick="myFunction()"><img src="assets/dark&light.png" style="height: 30px; width: 30px; display: flex; position: relative;"></a>
             <!-- Profile -->
             <div>   
                 <div class="profile">
                     <img src="https://github.com/debora7376.png" alt="Foto devroot">
+                   
                     <div>
                         <h1>Débora Ferreira</h1>
                     </div>
@@ -56,5 +59,11 @@
         </div>
     </div>
     
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("light-mode");
+        }
+        </script>
 </body>
 </html>
