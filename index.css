@@ -95,7 +95,7 @@ body {
 }
 
 .portifolio {
-  background-color: #3f218f;
+  background-color: #1C1852;
 }
 
 .instagram {
@@ -133,4 +133,10 @@ footer {
 }
 footer img {
   width: 20px;
+}
+
+@media(max-width: 56rem) {
+  .menu-pessoal {
+    margin: 1.5rem;
+  }
 }
